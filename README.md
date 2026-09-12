@@ -57,3 +57,32 @@ The analysis includes questions such as:
 ## Key Skills Demonstrated
 
 This project demonstrates practical SQL skills for data analyst roles, including data exploration, data validation, joins, aggregation, CTEs, window functions, ranking, and business-oriented analysis.
+
+## Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of the e-commerce data.
+
+### Key KPIs
+
+* Total Customers
+* Total Orders
+* Total Products
+* Total Quantity
+
+### Visualizations
+
+* Orders by Status
+* Monthly Orders Trend
+* Top 10 Products by Quantity
+* Orders by Country
+* Quantity by Category
+* Top 10 Customers by Orders
+
+### Interactive Filters
+
+* Country
+* Order Status
+* Order Date
+
+The dashboard was created using Power BI with data from the Customers, Orders, Order_Items, and Products tables.
+
