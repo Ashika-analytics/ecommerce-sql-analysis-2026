@@ -354,11 +354,11 @@ where RN<=5
  With ABC as (
  select customer_id,count(order_id)count
  from orders
- group by customer_id
+ group by customer_id 
  ),
  avg as (
  select *,avg(count) over( )avg_count from 
-
+ ABC
 
  )
  select*from avg
