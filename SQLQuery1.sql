@@ -390,13 +390,6 @@ select *from customers
 select*from orders
 
 with ABC as (
-select o.customer_id,c.country,count(o.order_id)count,dense_rank() over(partition by c.country order by count(o.order_id))DR
-from customers c join orders o
-on o.customer_id=c.customer_id
-group by o.customer_id,c.country
-)
-
-with ABC as (
 select o.customer_id,c.country,count(o.order_id)count
 from customers c join orders o
 on o.customer_id=c.customer_id
